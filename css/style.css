@@ -6,6 +6,10 @@ body {
   overflow-x: hidden;
 }
 
+body.lock {
+  overflow: hidden;
+}
+
 .wrapper {
   min-height: 100%;
   width: 100%;
@@ -140,7 +144,7 @@ body {
 }
 @media (max-width: 767.98px) {
   .menu {
-    position: absolute;
+    position: fixed;
     width: 90%;
     height: 275px;
     left: 110%;
